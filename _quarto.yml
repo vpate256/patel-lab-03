@@ -1,0 +1,17 @@
+
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+
+website:
+  title: "Lab 3: Linear Regression"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Report
+
+format:
+  html:
+    theme: cosmo
